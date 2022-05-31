@@ -1,0 +1,19 @@
+{
+  "name": "film",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikagame/film.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikagame/film/issues"
+  },
+  "homepage": "https://github.com/mikagame/film#readme"
+}
