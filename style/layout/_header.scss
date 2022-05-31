@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(51, 51, 51);
+    .navBar {
+        a {
+            font-size: 22px;
+            text-decoration: none;
+            color: white;
+            margin: 0 20px 0 20px;
+            border: 2px solid transparent;
+            border-radius: 15px;
+            padding: 10px;
+            &:hover {
+                border: 2px solid rgb(0, 217, 255);
+                color: rgb(70, 136, 138);
+            }
+        }
+    }
+}
