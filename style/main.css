@@ -71,6 +71,9 @@ header .navBar a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -90,7 +93,7 @@ main {
 }
 
 .day {
-  width: 70%;
+  width: 90%;
 }
 
 .day p, .day h3 {
@@ -144,9 +147,9 @@ main {
           transform: scale(1.02);
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 800px) {
   .day {
-    width: 50%;
+    width: 80%;
   }
   .movie {
     display: -webkit-box;
