@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Films de Plein Air - Contact</title>
+    <title>Les Films de Plein Air - Réservation</title>
     <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
+
     <header>
         <h1>Les Films de Plein Air</h1>
         <div class="navBar">
@@ -24,11 +25,26 @@
             <h2>Parc Monceau</h2>
             <p>- du 5 au 8 aôut 2022 de 18h à minuit -</p>
         </div>
-       
     </div>
 
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873738208828!2d2.3067609514440317!3d48.87968347918798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1654093105897!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="inscription">
+        <h2>PRÉINSCRIPTION</h2>
+        <form class="formulaire">
+            <label for="name">
+                <input id="name" type="text" placeholder="Nom : " required />
+            </label>
+            <label for="firstName">
+                <input id="firstName" type="text" placeholder="Prénom : " required />
+            </label>
+            <label for="email">
+                <input id="email" type="email" placeholder="E-mail : " required />
+            </label>
+            <div class="message">
+                <textarea placeholder="Votre message ..."></textarea>
+                <button id="submit">Envoyer</button>
+            </div>
+
+        </form>
     </div>
 
     <footer>
