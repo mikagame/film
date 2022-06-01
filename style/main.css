@@ -162,7 +162,7 @@ footer {
 }
 
 .hero {
-  background: url("../../images/header.png");
+  background: url("../images/header.png");
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
