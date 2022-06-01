@@ -24,7 +24,7 @@ header {
     }
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1400px) {
     header {
         display: flex;
         flex-direction: column;
@@ -45,4 +45,13 @@ header {
     }
 
    
+}
+
+@media screen and (max-width:650px) {
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
