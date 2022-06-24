@@ -1,0 +1,44 @@
+
+
+
+.actu {
+    background-color: rgb(110, 110, 110);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+        padding: 30px;
+        color: white;
+        font-size: 40px;
+    }
+    img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .galerie {
+       width: 95%;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+
+       gap: 30px;
+      
+    }
+}
+
+
+@media screen and (max-width:800px) {
+.actu {
+    .galerie {
+        display: flex;
+        flex-direction: column;
+          
+        }
+}
+    
+
+}

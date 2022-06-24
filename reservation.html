@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les Films de Plein Air - Réservation</title>
     <link rel="stylesheet" href="style/main.css">
+    <script src="https://kit.fontawesome.com/ac2f95dbfe.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -14,7 +15,7 @@
         <div class="navBar">
             <a href="index.html">ACCUEIL</a>
             <a href="actualite.html">ACTUALITÉS</a>
-            <a href="programmation.html">PROGRAMMATION</a>
+            <a href="index.html#programmation">PROGRAMMATION</a>
             <a href="reservation.html">RÉSERVATION</a>
             <a href="contact.html">CONTACT</a>
         </div>
@@ -31,13 +32,30 @@
         <h2>PRÉINSCRIPTION</h2>
         <form class="formulaire">
             <label for="name">
-                <input id="name" type="text" placeholder="Nom : " required />
+                <input id="name" type="text" placeholder="Nom" required />
             </label>
             <label for="firstName">
-                <input id="firstName" type="text" placeholder="Prénom : " required />
+                <input id="firstName" type="text" placeholder="Prénom" required />
             </label>
             <label for="email">
-                <input id="email" type="email" placeholder="E-mail : " required />
+                <input id="email" type="email" placeholder="E-mail" required />
+            </label>
+            <label for="seance">Choix de la séance : 
+                <select id="seance" required>
+                    <option value="">-- Choisissez votre séance --</option>
+                    <option value="">5 août Séance 1</option>
+                    <option value="">5 août Séance 2</option>
+                    <option value="">5 août Séance 3</option>
+                    <option value="">6 août Séance 1</option>
+                    <option value="">6 août Séance 2</option>
+                    <option value="">6 août Séance 3</option>
+                    <option value="">7 août Séance 1</option>
+                    <option value="">7 août Séance 2</option>
+                    <option value="">7 août Séance 3</option>
+                    <option value="">8 août Séance 1</option>
+                    <option value="">8 août Séance 2</option>
+                    <option value="">8 août Séance 3</option>
+                </select>
             </label>
             <div class="message">
                 <textarea placeholder="Votre message ..."></textarea>
@@ -49,6 +67,24 @@
 
     <footer>
 
+        <div class="coordonnées">
+
+            <div class="address">
+                <p>Les Films de Plein Air</p>
+                <p>Parc Monceau</p>
+                <p>35 Bd de Courcelles 75008 Paris</p>
+            </div>
+            <div class="TelMail">
+                <p>Tél : 01 00 00 00 00</p>
+                <a href="mailto:contact@lesfilmsdepleinair.org">contact@lesfilmsdepleinair.org</a>
+            </div>
+            
+            <div class="res">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
+            </div>
+
+        </div>
     </footer>
     
 </body>

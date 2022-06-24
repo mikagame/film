@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +79,7 @@ header .navBar a:hover {
 }
 
 main {
-  background-color: #adadad;
+  background-color: #6e6e6e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,6 +95,7 @@ main {
 
 .day {
   width: 90%;
+  max-width: 1200px;
 }
 
 .day p, .day h3 {
@@ -106,7 +108,7 @@ main {
 }
 
 .day h3 {
-  color: #d2691e;
+  color: #ffffff;
   font-size: 30px;
   padding: 60px 0 30px 0;
 }
@@ -118,10 +120,15 @@ main {
       grid-template-columns: 1fr 1fr 1fr;
 }
 
+.movie a {
+  text-decoration: none;
+  color: black;
+}
+
 .card {
   margin: 20px;
-  background-color: blanchedalmond;
-  border-radius: 30px;
+  background-color: whitesmoke;
+  border-radius: 15px;
   padding: 2px 2px 10px 2px;
   -webkit-box-shadow: #615f5f 8px 8px 8px;
           box-shadow: #615f5f 8px 8px 8px;
@@ -131,15 +138,18 @@ main {
 
 .card p {
   padding: 10px;
+  font-size: 18px;
 }
 
 .card img {
   height: 300px;
+  -o-object-position: center top;
+     object-position: center top;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .card:hover {
@@ -166,14 +176,69 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px;
+  background-color: #333333;
+}
+
+.coordonnées {
+  width: 90%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 60px;
-  background-color: #333333;
+  color: white;
+  font-size: 20px;
+}
+
+.coordonnées a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.coordonnées a:hover {
+  color: #d2691e;
+}
+
+.coordonnées i {
+  font-size: 30px;
+}
+
+.coordonnées p {
+  margin-bottom: 10px;
+}
+
+.res a {
+  margin: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .coordonnées {
+    padding-left: 20%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .res a {
+    margin: 30px 10px 0 0;
+  }
+  .address {
+    margin-bottom: 20px;
+  }
+  .TelMail {
+    margin-bottom: 20px;
+  }
 }
 
 .hero {
@@ -281,7 +346,7 @@ label {
 input {
   width: 100%;
   margin-top: 20px;
-  padding: 10px;
+  padding: 10px 0 2px 0;
   border: none;
   border-bottom: 2px solid #d2691e;
 }
@@ -314,8 +379,70 @@ button {
   max-width: 700px;
 }
 
+select {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  input {
+    width: 350px;
+  }
+}
+
 .inscription h2 {
   text-align: center;
   padding: 30px;
+  font-size: 40px;
+}
+
+.actu {
+  background-color: #6e6e6e;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.actu h2 {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-size: 40px;
+}
+
+.actu img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.actu .galerie {
+  width: 95%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .actu .galerie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */
