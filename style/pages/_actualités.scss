@@ -3,10 +3,11 @@
 
 .actu {
     background-color: rgb(110, 110, 110);
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 
     h2 {
         text-align: center;
@@ -19,6 +20,7 @@
         width: 100%;
         object-fit: cover;
         border-radius: 10px;
+        margin-bottom: 20px;
     }
     .galerie {
        width: 95%;
@@ -28,6 +30,12 @@
        gap: 30px;
       
     }
+}
+
+.actu1 {
+    background-color: rgb(211, 208, 208);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 

@@ -26,8 +26,15 @@
         
         .map iframe {
             left:0;
-            top:0;
-            height:60%;
+            top:50px;
+            height:50%;
             width:100%;
             position:absolute;
+        }
+
+        .contact {
+          
+            p {
+                margin-bottom: 20px;
+            }
         }

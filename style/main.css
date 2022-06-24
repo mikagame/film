@@ -251,6 +251,26 @@ footer {
   border-top: 4px solid #d2691e;
 }
 
+.heroActu {
+  background: url("../images/parc1.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-bottom: 4px solid #d2691e;
+  border-top: 4px solid #d2691e;
+}
+
+.heroRes {
+  background: url("../images/parc2.webp");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-bottom: 4px solid #d2691e;
+  border-top: 4px solid #d2691e;
+}
+
 .textHero {
   color: white;
   padding: 20px;
@@ -303,10 +323,14 @@ footer {
 
 .map iframe {
   left: 0;
-  top: 0;
-  height: 60%;
+  top: 50px;
+  height: 50%;
   width: 100%;
   position: absolute;
+}
+
+.contact p {
+  margin-bottom: 20px;
 }
 
 .festi {
@@ -397,7 +421,7 @@ select {
 
 .actu {
   background-color: #6e6e6e;
-  padding: 20px;
+  padding: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -423,6 +447,7 @@ select {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .actu .galerie {
@@ -432,6 +457,12 @@ select {
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+}
+
+.actu1 {
+  background-color: #d3d0d0;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 800px) {
@@ -444,5 +475,39 @@ select {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.contact {
+  margin-top: 30px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.contact a:hover {
+  color: #d2691e;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+.contact h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
 }
 /*# sourceMappingURL=main.css.map */
