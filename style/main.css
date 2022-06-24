@@ -66,7 +66,7 @@ header .navBar .main_pages {
   }
   header h1 {
     margin-bottom: 50px;
-    font-size: 35px;
+    font-size: 30px;
   }
   header .navBar a {
     font-size: 18px;
@@ -218,6 +218,9 @@ main {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .day h3 {
+    font-size: 20px;
+  }
 }
 
 footer {
@@ -268,8 +271,11 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  footer {
+    padding: 60px 0px 60px 20px;
+  }
   .coordonnées {
-    padding-left: 20%;
+    padding-left: 0%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

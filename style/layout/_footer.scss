@@ -38,9 +38,11 @@ footer {
 
 @media screen and (max-width:1000px) {
     
-    
+    footer {
+        padding: 60px 0px 60px 20px;
+    }
     .coordonnées {
-        padding-left: 20%;
+        padding-left: 0%;
         flex-direction: column;
         align-items:flex-start;
     }
