@@ -89,7 +89,7 @@ header .navBar .main_pages {
   }
 }
 
-label, #toggle {
+header label, header #toggle {
   display: none;
 }
 
@@ -103,7 +103,7 @@ label, #toggle {
     background: #48435C;
     height: 280px;
   }
-  label {
+  header label {
     width: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
