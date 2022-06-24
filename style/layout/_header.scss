@@ -21,7 +21,14 @@ header {
                color: #d2691e;
             }
         }
+        .main_pages {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
     }
+
+
 }
 
 @media screen and (max-width:1400px) {
@@ -55,4 +62,45 @@ header {
         align-items: center;
     }
 
+}
+
+
+label, #toggle
+{
+    display: none;
+}
+ 
+@media all and (max-width: 991px)
+{
+   
+ header {
+     .navBar {
+        .main_pages 
+        {
+            display: none;
+            flex-direction: column;
+            background: #48435C;
+            height: 280px;
+        }
+     }
+ }
+   
+ 
+    
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+ 
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
 }
